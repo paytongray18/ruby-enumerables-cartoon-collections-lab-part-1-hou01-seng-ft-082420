@@ -7,7 +7,7 @@ end
 def list_dwarves(array)
   total = 0 
   array.each do |dwarves_array,index|
-    puts "#{index + 1}.#{dwarves_array.capitalize}"
+    puts "#{index+1}.#{dwarves_array.capitalize}"
     total += 1
   end
 end
